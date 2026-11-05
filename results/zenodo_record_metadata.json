@@ -1,0 +1,29 @@
+{
+ "id": 4034867,
+ "doi": "10.5281/zenodo.4034867",
+ "title": "The CONTEXT Dataset containing Contextual Faults of a Smart Factory",
+ "license": {
+  "id": "cc-by-nc-4.0"
+ },
+ "access_right": "open",
+ "publication_date": "2020-11-23",
+ "files": [
+  {
+   "key": "kaupp_context_dataset.zip",
+   "size": 23474033,
+   "checksum": "md5:ca10ec210b91159811f72959a868bade"
+  }
+ ],
+ "fetched_from": "https://zenodo.org/api/records/4034867",
+ "attempts": [
+  {
+   "url": "https://api.zenodo.org/api/records/4034867",
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "url": "https://zenodo.org/api/records/4034867",
+   "status": "ok",
+   "bytes": 5993
+  }
+ ]
+}

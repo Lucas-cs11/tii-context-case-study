@@ -8,10 +8,11 @@
 | DOI | 10.5281/zenodo.4034867 |
 | File | `kaupp_context_dataset.zip` (v2) |
 | MD5 (official and verified) | `ca10ec210b91159811f72959a868bade` |
-| Size | 23,418,302 bytes |
+| Size | **23,474,033 bytes** (verified by `stat` in run 42051441545 and by the Zenodo file metadata) |
 | Download | GitHub Actions run `42044605897` (first attempt), `42044887269` (successful extraction) |
 | Archive integrity | zip member list readable; extraction required 7z because the archive uses a compression method Python's `zipfile` cannot decompress |
 | Members | 29 (4 scenario directories, 24 CSV files, 5 further files) |
+| Licence | **CC BY-NC 4.0** (`license.id = cc-by-nc-4.0`, `access_right = open`), captured from `api.zenodo.org/api/records/4034867` |
 
 The download is executed by `scripts/download_context.py` inside the GitHub Actions workflow
 `.github/workflows/download.yml`; it retries five times over two Zenodo URLs, verifies the
@@ -52,5 +53,8 @@ No station name is invented; all station attributions above come from the NodeId
 - file list, row counts, time ranges: **PASS**
 - CSV header / missing-value inventory: **PASS** (`results/csv_inventory.json`)
 - independent scenario separation confirmed: **PASS**
-- licence metadata: **PENDING** — the Zenodo record metadata has not yet been captured in the
-  pipeline; it must be recorded before redistribution of any raw file in the final package.
+- licence metadata: **CAPTURED** — CC BY-NC 4.0. Because redistribution is restricted to
+  non-commercial use, the public evidence package will ship the download script, DOI and
+  checksums plus derived tables, and will not embed a copy of the raw archive.
+- size discrepancy resolved: the earlier 23,418,302-byte figure was a reporting error; the
+  official metadata and `stat` both give 23,474,033 bytes with the same MD5.

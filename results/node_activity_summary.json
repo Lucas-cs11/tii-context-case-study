@@ -1,0 +1,22 @@
+{
+ "ground_truth": {
+  "nodes_total": 33056,
+  "nodes_with_transitions": 2710,
+  "rows": 390562
+ },
+ "shuttle_dropout": {
+  "nodes_total": 33056,
+  "nodes_with_transitions": 2696,
+  "rows": 454589
+ },
+ "missing_parts": {
+  "nodes_total": 33056,
+  "nodes_with_transitions": 2696,
+  "rows": 377846
+ },
+ "missing_pressure": {
+  "nodes_total": 33056,
+  "nodes_with_transitions": 2694,
+  "rows": 388890
+ }
+}
