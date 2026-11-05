@@ -1,0 +1,21 @@
+name: context-p0-semantics
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  p0:
+    runs-on: ubuntu-latest
+    timeout-minutes: 200
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq p7zip-full
+      - run: python scripts/download_context.py
+      - run: python scripts/p0_signal_semantics.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: p0-semantics-${{ github.run_id }}
+          path: results/
