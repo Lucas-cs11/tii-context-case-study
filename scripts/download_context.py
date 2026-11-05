@@ -48,12 +48,28 @@ def fetch() -> None:
 def main() -> int:
     fetch()
     assert md5(DEST) == EXPECTED_MD5
+    import shutil, subprocess
+    extracted = OUT / "extracted"
+    members = []
     with zipfile.ZipFile(DEST) as z:
-        bad = z.testzip()
-        if bad:
-            raise SystemExit(f"corrupt member: {bad}")
-        members = [{"name": i.filename, "size": i.file_size} for i in z.infolist()]
-        z.extractall(OUT / "extracted")
+        members = [{"name": i.filename, "size": i.file_size,
+                    "compress_type": i.compress_type} for i in z.infolist()]
+    extracted.mkdir(parents=True, exist_ok=True)
+    methods = [
+        ["bsdtar", "-xf", str(DEST), "-C", str(extracted)],
+        ["7z", "x", "-y", f"-o{extracted}", str(DEST)],
+        ["unzip", "-o", str(DEST), "-d", str(extracted)],
+    ]
+    errors = []
+    for cmd in methods:
+        if shutil.which(cmd[0]) is None:
+            errors.append(f"{cmd[0]}: not installed"); continue
+        r = subprocess.run(cmd, capture_output=True, text=True)
+        if r.returncode == 0 and any(extracted.rglob("*")):
+            print("extracted with", cmd[0]); break
+        errors.append(f"{cmd[0]}: rc={r.returncode} {r.stderr.strip()[:200]}")
+    else:
+        raise SystemExit("all extraction backends failed: " + " | ".join(errors))
     (OUT / "inventory.json").write_text(json.dumps(
         {"source": URLS[0], "doi": "10.5281/zenodo.4034867", "md5": md5(DEST),
          "bytes": DEST.stat().st_size, "members": members}, indent=1))
