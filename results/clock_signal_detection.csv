@@ -1,0 +1,29 @@
+nodeid,transitions,dt_median_s,distinct
+ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Taktmerker Byte,1154,1.797,113
+ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Taktmerker 2_5Hz,1094,1.797,2
+ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Taktmerkerbyte,1007,2.062,160
+ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Taktmerker 2Hz,906,1.798,2
+ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Taktmerker_1_15Hz,857,2.063,2
+ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Taktmerker_Byte,661,3.109,94
+ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Taktmerker_5Hz,580,2.11,2
+ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Taktmerker_0_5Hz,575,3.109,2
+ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Taktmerker_0_625Hz,573,4.078,2
+ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Taktmerker 1_25Hz,562,3.595,2
+ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Taktmerker_10Hz,486,4.0345,2
+ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Taktmerker 1Hz,476,3.6135,2
+ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Taktmerker_5Hz,456,3.109,2
+ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Visualisierung iDB.Taktmerker_10Hz,440,4.047,2
+ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Taktmerker_2Hz,346,6.254,2
+ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Taktmerker_2_5Hz,301,6.217,2
+ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Taktmerker 0_625Hz,281,7.203,2
+ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Taktmerker 0_5Hz,238,8.9965,2
+ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Taktmerker_2_5Hz,229,9.39,2
+ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Taktmerker_2Hz,220,8.2705,2
+ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Taktmerker 5Hz,178,7.095,2
+ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Taktmerker_1Hz,174,12.5,2
+ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Taktmerker_1_25Hz,117,15.612,2
+ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Taktmerker_1Hz,112,18.4655,2
+ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Taktmerker 10Hz,96,1.8515,2
+ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Taktmerker_0_625Hz,59,34.401,2
+ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Taktmerker_0_5Hz,55,36.959,2
+ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Taktmerker_10Hz,46,3.1965,2
