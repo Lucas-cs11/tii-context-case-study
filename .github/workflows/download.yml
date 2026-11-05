@@ -1,0 +1,24 @@
+name: context-download
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: python scripts/download_context.py
+      - run: python scripts/inventory_csv.py
+      - run: find data/extracted -type f | sort | head -200
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: context-raw-${{ github.run_id }}
+          path: |
+            data/
+            results/
+          retention-days: 30
