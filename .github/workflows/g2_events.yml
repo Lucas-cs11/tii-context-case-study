@@ -1,0 +1,24 @@
+name: context-g2-events
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  g2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq p7zip-full
+      - run: python scripts/download_context.py
+      - run: stat -c '%n %s bytes' data/kaupp_context_dataset.zip && md5sum data/kaupp_context_dataset.zip
+      - run: python scripts/zenodo_metadata.py
+      - run: python scripts/node_activity.py
+      - run: python scripts/equipment_logs.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: g2-evidence-${{ github.run_id }}
+          path: results/
