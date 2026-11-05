@@ -19,7 +19,7 @@ for path in sorted(ROOT.rglob("*.csv")):
     tcol = None
     for i, name in enumerate(header):
         low = name.lower()
-        if "timestamp" in low or low in ("time", "ts", "datetime"):
+        if "timestamp" in low or low in ("time", "ts", "datetime", "date"):
             tcol = i; break
     if tcol is not None:
         for r in rows:
