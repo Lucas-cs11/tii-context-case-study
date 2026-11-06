@@ -1,0 +1,155 @@
+{
+ "windows": 3627,
+ "by_censoring": {
+  "LEFT_CENSORED": 76,
+  "FULLY_OBSERVED": 3150,
+  "RIGHT_CENSORED": 401
+ },
+ "tu_global": [
+  {
+   "samples": 133724,
+   "equal": 128460,
+   "equal_ratio": 0.960635,
+   "nonzero": 5264,
+   "nonzero_pairs": 183,
+   "u_gt_t": 5264,
+   "t_gt_u": 0,
+   "min": -27.0,
+   "max": 0.0,
+   "median": 0.0,
+   "p5": 0.0,
+   "p95": 0.0
+  }
+ ],
+ "tu_rows": 1296,
+ "named_fully_observed": {
+  "ground_truth|Ablaufkette": {
+   "n": 740,
+   "median": 15.792,
+   "min": 0.187,
+   "max": 1618.42,
+   "p5": 0.591,
+   "p95": 181.168
+  },
+  "ground_truth|Programm wird ausgefuehrt": {
+   "n": 31,
+   "median": 18.744,
+   "min": 6.202,
+   "max": 31.453,
+   "p5": 6.237,
+   "p95": 31.304
+  },
+  "ground_truth|Relais montieren": {
+   "n": 15,
+   "median": 9.384,
+   "min": 9.249,
+   "max": 12.641,
+   "p5": 9.284,
+   "p95": 12.569
+  },
+  "ground_truth|Schutzmodul montieren": {
+   "n": 15,
+   "median": 12.483,
+   "min": 9.293,
+   "max": 12.588,
+   "p5": 9.446,
+   "p95": 12.551
+  },
+  "missing_parts|Ablaufkette": {
+   "n": 704,
+   "median": 16.995,
+   "min": 0.188,
+   "max": 782.992,
+   "p5": 0.492,
+   "p95": 180.55
+  },
+  "missing_parts|Programm wird ausgefuehrt": {
+   "n": 31,
+   "median": 27.997,
+   "min": 6.151,
+   "max": 31.762,
+   "p5": 6.194,
+   "p95": 31.236
+  },
+  "missing_parts|Relais montieren": {
+   "n": 15,
+   "median": 12.395,
+   "min": 9.364,
+   "max": 12.79,
+   "p5": 9.374,
+   "p95": 12.659
+  },
+  "missing_parts|Schutzmodul montieren": {
+   "n": 15,
+   "median": 12.406,
+   "min": 9.314,
+   "max": 12.628,
+   "p5": 9.327,
+   "p95": 12.554
+  },
+  "missing_pressure|Ablaufkette": {
+   "n": 710,
+   "median": 16.934,
+   "min": 0.167,
+   "max": 547.033,
+   "p5": 0.406,
+   "p95": 180.975
+  },
+  "missing_pressure|Programm wird ausgefuehrt": {
+   "n": 32,
+   "median": 14.269,
+   "min": 6.202,
+   "max": 31.651,
+   "p5": 6.232,
+   "p95": 31.443
+  },
+  "missing_pressure|Relais montieren": {
+   "n": 15,
+   "median": 12.419,
+   "min": 9.313,
+   "max": 12.531,
+   "p5": 9.323,
+   "p95": 12.518
+  },
+  "missing_pressure|Schutzmodul montieren": {
+   "n": 15,
+   "median": 12.419,
+   "min": 9.245,
+   "max": 12.862,
+   "p5": 9.302,
+   "p95": 12.775
+  },
+  "shuttle_dropout|Ablaufkette": {
+   "n": 751,
+   "median": 19.015,
+   "min": 0.203,
+   "max": 843.788,
+   "p5": 0.414,
+   "p95": 218.586
+  },
+  "shuttle_dropout|Programm wird ausgefuehrt": {
+   "n": 31,
+   "median": 27.953,
+   "min": 6.171,
+   "max": 31.301,
+   "p5": 6.213,
+   "p95": 31.277
+  },
+  "shuttle_dropout|Relais montieren": {
+   "n": 15,
+   "median": 12.44,
+   "min": 9.275,
+   "max": 12.66,
+   "p5": 9.328,
+   "p95": 12.577
+  },
+  "shuttle_dropout|Schutzmodul montieren": {
+   "n": 15,
+   "median": 12.436,
+   "min": 9.266,
+   "max": 12.634,
+   "p5": 9.294,
+   "p95": 12.591
+  }
+ }
+}
