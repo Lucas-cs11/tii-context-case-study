@@ -1,0 +1,321 @@
+scenario,pair,paired_samples,equal_ratio,diff_min,diff_max,diff_median,u_gt_t_count,nonzero_count
+ground_truth,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.Init,8409,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=Station 20 OpenC.St20 SoftSPS.Ablaufkette_iDB.Init,8456,0.9955,-2.0,0.0,0.0,38,38
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.Init,973,0.9424,-2.0,0.0,0.0,56,56
+ground_truth,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.Init,1129,0.6253,-10.0,0.0,0.0,423,423
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Initialschritt,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttletueren oeffen (Auto),438,0.9475,-3.0,0.0,0.0,23,23
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auftrag wird bearbeitet an St10 (Auto),7,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Grundstellungsfahrt (Auto),12,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10,7,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Greifer aufnehmen,60,0.95,-2.0,0.0,0.0,3,3
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Einlagern - Sauger aufnehmen (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Schutzmodul montieren,79,0.9241,-2.0,0.0,0.0,6,6
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Varianten Montage - Greifer aufnehmen_1,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Relais montieren,71,0.9577,-2.0,0.0,0.0,3,3
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auslagern - Sauger aufnehmen (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step12,23,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step27,44,0.9773,-2.0,0.0,0.0,1,1
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Warten auf Programm von Mobile Panel (Einricht),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboterprogramm wird ausgefuehrt (Einricht),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Grundstellung anfahren (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttleturenen oeffen (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auftargsabbruch Ende (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Werkzeugablegen (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Werkzeugablegen (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step13,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step28,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step24,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10_3,59,0.6271,-4.0,0.0,0.0,22,22
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Start,70,0.9857,-2.0,0.0,0.0,1,1
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Robotercontroller einschalten,30,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter nicht in RobAuto,41,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Ruecksetzen der Robotereingaenge,27,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Motoren einschalten,4,0.25,-2.0,2.0,1.0,1,3
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: CAL ausfuehren,1,0.0,2.0,2.0,2.0,0,1
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Geschwindigkeit auf 100%,21,0.9524,-2.0,0.0,0.0,1,1
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Auf Externen Modus umschalten,1,0.0,2.0,2.0,2.0,0,1
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programmnummer mit Paritaet uebergeben,35,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm starten,56,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Ende,31,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.BedienPanel nicht in RobAuto,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step127,662,0.9411,-3.0,0.0,0.0,39,39
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step128,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step130,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step129,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Grundstellungsfahrt ausfuehren' Start,12,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step227,12,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step19_7,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step158,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montagevariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert gruene LED (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert rote LED (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Zusammenfuehren 1,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 2-Wechsler (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 3-Wechsler (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Einlagervariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm wird ausgefuehrt,220,0.9227,-2.0,0.0,0.0,17,17
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Produktzaehler inkrementieren,9,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auslagervariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert LEDs ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 2-Wechsler ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 3-Wechsler ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert LEDs aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 2-Wechsler aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 3-Wechsler aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step175,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step176,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step177,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step178,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step179,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step180,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Variantenmontage,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Auslagern,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Variantenmontagee,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Auslagern,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Einlagern,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Einlagern,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert rote LED (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 2-Wechsler (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.Init,167,0.994,-7.0,0.0,0.0,1,1
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.Init,504,0.746,-8.0,0.0,0.0,128,128
+shuttle_dropout,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.Init,10417,0.9999,-2.0,0.0,0.0,1,1
+shuttle_dropout,ns=6;s=Station 20 OpenC.St20 SoftSPS.Ablaufkette_iDB.Init,10458,0.997,-3.0,0.0,0.0,31,31
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.Init,1209,0.9289,-3.0,0.0,0.0,86,86
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.Init,1368,0.7164,-12.0,0.0,0.0,388,388
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Initialschritt,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttletueren oeffen (Auto),564,0.9273,-2.0,0.0,0.0,41,41
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auftrag wird bearbeitet an St10 (Auto),7,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Grundstellungsfahrt (Auto),7,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10,9,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Greifer aufnehmen,62,0.9516,-2.0,0.0,0.0,3,3
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Einlagern - Sauger aufnehmen (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Schutzmodul montieren,76,0.9342,-2.0,0.0,0.0,5,5
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Varianten Montage - Greifer aufnehmen_1,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Relais montieren,78,0.9487,-2.0,0.0,0.0,4,4
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auslagern - Sauger aufnehmen (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step12,15,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step27,54,0.963,-2.0,0.0,0.0,2,2
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Warten auf Programm von Mobile Panel (Einricht),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboterprogramm wird ausgefuehrt (Einricht),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Grundstellung anfahren (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttleturenen oeffen (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auftargsabbruch Ende (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Werkzeugablegen (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Werkzeugablegen (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step13,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step28,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step24,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10_3,62,0.6613,-3.0,0.0,0.0,21,21
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Start,71,0.9859,-2.0,0.0,0.0,1,1
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Robotercontroller einschalten,30,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter nicht in RobAuto,40,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Ruecksetzen der Robotereingaenge,27,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Motoren einschalten,4,0.5,0.0,2.0,1.0,0,2
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: CAL ausfuehren,1,0.0,1.0,1.0,1.0,0,1
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Geschwindigkeit auf 100%,26,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Auf Externen Modus umschalten,1,0.0,1.0,1.0,1.0,0,1
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programmnummer mit Paritaet uebergeben,34,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm starten,61,0.9836,-1.0,0.0,0.0,1,1
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Ende,32,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.BedienPanel nicht in RobAuto,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step127,799,0.9186,-3.0,0.0,0.0,65,65
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step128,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step130,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step129,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Grundstellungsfahrt ausfuehren' Start,8,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step227,5,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step19_7,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step158,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montagevariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert gruene LED (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert rote LED (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Zusammenfuehren 1,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 2-Wechsler (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 3-Wechsler (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Einlagervariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm wird ausgefuehrt,229,0.9301,-2.0,0.0,0.0,16,16
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Produktzaehler inkrementieren,9,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auslagervariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert LEDs ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 2-Wechsler ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 3-Wechsler ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert LEDs aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 2-Wechsler aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 3-Wechsler aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step175,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step176,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step177,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step178,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step179,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step180,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Variantenmontage,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Auslagern,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Variantenmontagee,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Auslagern,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Einlagern,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Einlagern,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert rote LED (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 2-Wechsler (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.Init,251,0.988,-8.0,0.0,0.0,3,3
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.Init,638,0.7868,-6.0,0.0,0.0,136,136
+missing_parts,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.Init,8141,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=Station 20 OpenC.St20 SoftSPS.Ablaufkette_iDB.Init,8164,0.996,-2.0,0.0,0.0,33,33
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.Init,962,0.9407,-2.0,0.0,0.0,57,57
+missing_parts,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.Init,1087,0.6973,-11.0,0.0,0.0,329,329
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Initialschritt,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttletueren oeffen (Auto),409,0.9291,-3.0,0.0,0.0,29,29
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auftrag wird bearbeitet an St10 (Auto),6,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Grundstellungsfahrt (Auto),6,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10,6,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Greifer aufnehmen,63,0.9524,-2.0,0.0,0.0,3,3
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Einlagern - Sauger aufnehmen (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Schutzmodul montieren,75,0.9733,-2.0,0.0,0.0,2,2
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Varianten Montage - Greifer aufnehmen_1,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Relais montieren,74,0.8919,-2.0,0.0,0.0,8,8
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auslagern - Sauger aufnehmen (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step12,15,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step27,50,0.94,-2.0,0.0,0.0,3,3
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Warten auf Programm von Mobile Panel (Einricht),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboterprogramm wird ausgefuehrt (Einricht),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Grundstellung anfahren (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttleturenen oeffen (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auftargsabbruch Ende (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Werkzeugablegen (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Werkzeugablegen (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step13,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step28,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step24,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10_3,65,0.6154,-7.0,0.0,0.0,25,25
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Start,66,0.9848,-2.0,0.0,0.0,1,1
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Robotercontroller einschalten,31,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter nicht in RobAuto,27,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Ruecksetzen der Robotereingaenge,35,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Motoren einschalten,4,0.5,0.0,1.0,0.5,0,2
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: CAL ausfuehren,1,0.0,2.0,2.0,2.0,0,1
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Geschwindigkeit auf 100%,26,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Auf Externen Modus umschalten,1,0.0,2.0,2.0,2.0,0,1
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programmnummer mit Paritaet uebergeben,25,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm starten,57,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Ende,41,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.BedienPanel nicht in RobAuto,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step127,639,0.9249,-3.0,0.0,0.0,48,48
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step128,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step130,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step129,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Grundstellungsfahrt ausfuehren' Start,10,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step227,8,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step19_7,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step158,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montagevariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert gruene LED (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert rote LED (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Zusammenfuehren 1,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 2-Wechsler (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 3-Wechsler (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Einlagervariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm wird ausgefuehrt,229,0.9127,-2.0,0.0,0.0,20,20
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Produktzaehler inkrementieren,8,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auslagervariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert LEDs ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 2-Wechsler ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 3-Wechsler ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert LEDs aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 2-Wechsler aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 3-Wechsler aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step175,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step176,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step177,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step178,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step179,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step180,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Variantenmontage,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Auslagern,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Variantenmontagee,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Auslagern,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Einlagern,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Einlagern,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert rote LED (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 2-Wechsler (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.Init,481,0.7443,-5.0,0.0,0.0,123,123
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.Init,156,0.9808,-8.0,0.0,0.0,3,3
+missing_pressure,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.Init,8269,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=Station 20 OpenC.St20 SoftSPS.Ablaufkette_iDB.Init,8298,0.9967,-2.0,0.0,0.0,27,27
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.Init,988,0.9403,-3.0,0.0,0.0,59,59
+missing_pressure,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.Init,1132,0.6961,-8.0,0.0,0.0,344,344
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Initialschritt,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttletueren oeffen (Auto),434,0.9286,-2.0,0.0,0.0,31,31
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auftrag wird bearbeitet an St10 (Auto),5,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Grundstellungsfahrt (Auto),8,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10,7,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Greifer aufnehmen,63,0.9365,-2.0,0.0,0.0,4,4
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Einlagern - Sauger aufnehmen (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Schutzmodul montieren,74,0.9595,-2.0,0.0,0.0,3,3
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Varianten Montage - Greifer aufnehmen_1,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Relais montieren,75,0.9333,-2.0,0.0,0.0,5,5
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auslagern - Sauger aufnehmen (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step12,13,0.9231,-1.0,0.0,0.0,1,1
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step27,49,0.9796,-2.0,0.0,0.0,1,1
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Warten auf Programm von Mobile Panel (Einricht),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboterprogramm wird ausgefuehrt (Einricht),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Grundstellung anfahren (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttleturenen oeffen (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auftargsabbruch Ende (Abbruch),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Werkzeugablegen (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Werkzeugablegen (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step13,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step28,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step24,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10_3,63,0.6825,-5.0,0.0,0.0,20,20
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Start,63,0.9841,-1.0,0.0,0.0,1,1
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Robotercontroller einschalten,23,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter nicht in RobAuto,26,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Ruecksetzen der Robotereingaenge,24,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Motoren einschalten,4,0.5,0.0,1.0,0.5,0,2
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: CAL ausfuehren,1,0.0,2.0,2.0,2.0,0,1
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Geschwindigkeit auf 100%,24,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Auf Externen Modus umschalten,1,0.0,2.0,2.0,2.0,0,1
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programmnummer mit Paritaet uebergeben,34,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm starten,58,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Ende,43,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.BedienPanel nicht in RobAuto,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step127,662,0.9381,-2.0,0.0,0.0,41,41
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step128,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step130,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step129,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Grundstellungsfahrt ausfuehren' Start,10,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step227,7,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step19_7,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step158,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montagevariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert gruene LED (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert rote LED (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Zusammenfuehren 1,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 2-Wechsler (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 3-Wechsler (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Einlagervariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm wird ausgefuehrt,231,0.9264,-2.0,0.0,0.0,17,17
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Produktzaehler inkrementieren,9,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Auslagervariante ermitteln (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert LEDs ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 2-Wechsler ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 3-Wechsler ein (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert LEDs aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 2-Wechsler aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter lagert 3-Wechsler aus (Auto),1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step175,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step176,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step177,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step178,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step179,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step180,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Variantenmontage,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Auslagern,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Variantenmontagee,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Auslagern,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung vor Einlagern,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Lagerueberwachung nach Einlagern,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert rote LED (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter montiert Relais 2-Wechsler (Auto)_1,1,1.0,0.0,0.0,0.0,0,0
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.Init,503,0.7356,-9.0,0.0,0.0,133,133
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.Init,168,0.9821,-16.0,0.0,0.0,3,3

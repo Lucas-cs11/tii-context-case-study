@@ -1,0 +1,24 @@
+{
+ "scenarios": {
+  "ground_truth": {
+   "selected_nodes": 4338,
+   "selected_rows": 77077
+  },
+  "shuttle_dropout": {
+   "selected_nodes": 4338,
+   "selected_rows": 92248
+  },
+  "missing_parts": {
+   "selected_nodes": 4338,
+   "selected_rows": 74722
+  },
+  "missing_pressure": {
+   "selected_nodes": 4338,
+   "selected_rows": 76446
+  }
+ },
+ "windows": 3969,
+ "closed_windows": 3885,
+ "overlaps": 53634,
+ "pressure_signals": 48
+}

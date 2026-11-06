@@ -1,0 +1,410 @@
+scenario,nodeid,activations,closed_windows,open_at_start,open_at_end,dur_median_s,dur_min_s,dur_max_s,dur_p5_s,dur_p95_s
+ground_truth,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.Init.X,43,43,1,0,43.301,9.291,109.882,15.804,105.5236
+ground_truth,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.SendShuttleOn.X,42,42,0,0,0.313,0.187,0.609,0.1888,0.594
+ground_truth,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.Step19.X,1,1,0,0,0.297,0.297,0.297,0.297,0.297
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.Init.X,25,25,1,0,51.424,14.438,186.941,25.0482,174.563
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.ReadRFID.X,2,2,0,0,2.0625,2.031,2.094,2.0342,2.0908
+ground_truth,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step3.X,17,16,1,1,108.541,37.797,206.676,46.9477,202.2728
+ground_truth,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step6.X,1,1,0,0,1.724,1.724,1.724,1.724,1.724
+ground_truth,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step8.X,16,16,0,0,1.7965,1.75,3.673,1.75,3.6625
+ground_truth,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step9.X,2,2,0,0,1.7915,1.75,1.833,1.7542,1.8288
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Init.X,20,19,1,1,9.609,6.328,1182.032,8.9902,301.112
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Stelle Weiche Ausfahrt.X,1,1,0,0,3.14,3.14,3.14,3.14,3.14
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Ausfahrt.X,8,8,0,0,3.1485,3.063,3.234,3.0739,3.2123
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Stelle Weiche Einfahrt.X,4,4,0,0,3.1485,3.093,3.203,3.0932,3.203
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Einfahrt.X,6,6,0,0,3.187,3.031,3.297,3.0585,3.2968
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.StartWork.X,8,8,0,0,2.0625,2.015,2.109,2.0262,2.1037
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.StationWorks.X,13,13,0,0,6.031,4.062,6.302,4.0902,6.2894
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.SendShuttleOn.X,13,13,0,0,2.046,1.946,2.094,1.9784,2.094
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Stelle Weiche Durchfahrt.X,3,3,0,0,3.124,3.095,3.221,3.0979,3.2113
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Durchfahrt.X,3,3,0,0,3.22,3.125,3.25,3.1345,3.247
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Warten auf Auftag oder -simulation (Auto).X,14,13,1,1,181.154,34.99,303.989,41.0848,275.0294
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.DMC scannen (Auto).X,1,1,0,0,4.143,4.143,4.143,4.143,4.143
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Ausfahren (Auto).X,9,9,0,0,2.094,2.0,2.13,2.018,2.128
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Pruefung ohne DC (Auto).X,3,3,0,0,2.047,2.015,2.078,2.0182,2.0749
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Pruefung mit DC (Auto).X,12,12,0,0,2.0915,1.969,2.125,1.9861,2.1195
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Einfahren (Auto).X,12,12,0,0,2.07,1.978,2.156,1.9901,2.1472
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Ausfahren Start.X,3,3,0,0,2.094,2.093,2.109,2.0931,2.1075
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Ausfahren.X,4,4,0,0,2.062,2.015,2.078,2.0219,2.0757
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Herunterfahren.X,1,1,0,0,2.109,2.109,2.109,2.109,2.109
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Einfahren Start.X,2,2,0,0,2.07,1.984,2.156,1.9926,2.1474
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Hochfahren.X,4,4,0,0,2.075,1.993,2.078,2.0049,2.078
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Einfahren.X,8,8,0,0,2.0545,1.993,2.156,2.0011,2.1507
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Step28.X,1,1,0,0,4.159,4.159,4.159,4.159,4.159
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Pruefung ohne DC Start.X,3,3,0,0,2.094,2.0,2.098,2.0094,2.0976
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Test_m_Strom.X,2,2,0,0,2.0625,2.031,2.094,2.0342,2.0908
+ground_truth,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Step35.X,12,12,0,0,2.07,2.0,2.12,2.0171,2.1145
+ground_truth,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.Init.X,26,26,1,0,55.518,26.981,198.993,36.418,172.844
+ground_truth,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.ReadRFID.X,1,1,0,0,1.725,1.725,1.725,1.725,1.725
+ground_truth,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.StartWork.X,7,7,0,0,1.782,1.734,1.797,1.7388,1.7967
+ground_truth,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.StationWorks.X,16,16,0,0,2.6965,1.708,3.643,1.7163,3.6212
+ground_truth,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.SendShuttleOn.X,10,10,0,0,1.789,1.709,7.078,1.7401,4.7155
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttletueren oeffen (Auto).X,16,15,1,1,118.694,6.265,163.389,6.265,158.6395
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Greifer aufnehmen.X,15,15,0,0,9.342,6.192,9.506,6.2263,9.5039
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Schutzmodul montieren.X,16,16,0,0,12.479,9.293,12.588,9.4573,12.5482
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Relais montieren.X,16,16,0,0,9.382,9.249,12.641,9.2865,12.5638
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step12.X,10,10,0,0,3.164,3.109,3.218,3.1158,3.218
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step27.X,16,16,0,0,3.1875,3.069,15.598,3.087,10.9578
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10_3.X,15,15,0,0,9.353,6.268,9.433,6.2778,9.4274
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Start.X,15,15,0,0,3.094,3.046,3.156,3.0572,3.156
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Ruecksetzen der Robotereingaenge.X,1,1,0,0,3.172,3.172,3.172,3.172,3.172
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Motoren einschalten.X,1,1,0,0,3.125,3.125,3.125,3.125,3.125
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Geschwindigkeit auf 100%.X,1,1,0,0,3.172,3.172,3.172,3.172,3.172
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programmnummer mit Paritaet uebergeben.X,1,1,0,0,3.156,3.156,3.156,3.156,3.156
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm wird ausgefuehrt.X,32,32,0,0,14.104,6.202,31.453,6.237,31.3025
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.Init.X,21,21,1,0,33.808,5.562,107.154,5.596,107.037
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.ReadRFID.X,2,2,0,0,5.674,5.63,5.718,5.6344,5.7136
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.StartWork.X,2,2,0,0,5.662,5.601,5.723,5.6071,5.7169
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.StationWorks.X,19,19,0,0,50.726,45.044,101.876,45.1088,101.7311
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.SendShuttleOn.X,8,8,0,0,8.4475,5.593,22.692,5.5986,20.6847
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Init.X,9,9,1,0,50.655,15.766,1191.453,15.8212,805.0406
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.ReadRFID.X,1,1,0,0,3.194,3.194,3.194,3.194,3.194
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.StartWork.X,1,1,0,0,3.015,3.015,3.015,3.015,3.015
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.SendShuttleOn.X,8,8,0,0,3.234,3.125,6.422,3.1303,6.3506
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Starte Weichenkette.X,5,5,0,0,3.157,3.045,3.203,3.0672,3.1966
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Starte Shuttle.X,6,6,0,0,3.156,3.047,3.235,3.0628,3.2308
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St20_DB.Init.X,3,3,1,0,406.228,37.97,1618.42,74.7958,1497.2008
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St20_DB.Shuttle von Station starten.X,2,2,0,0,3.114,3.109,3.119,3.1095,3.1185
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.Init.X,16,15,1,1,177.72,34.99,203.468,41.4055,202.8667
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.ShuttleInStation an Station senden.X,2,2,0,0,3.164,3.094,3.234,3.101,3.227
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.LockShuttle wird an DP aktiviert.X,14,14,0,0,6.298,3.172,6.447,3.1921,6.4139
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.Init.X,28,27,1,1,3.296,3.125,107.933,3.156,106.8673
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.ShuttleInStation an Station senden.X,6,6,0,0,15.782,3.125,19.037,3.1492,18.2542
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.LockShuttle wird an DP aktiviert.X,24,24,0,0,50.548,44.289,57.617,47.2649,53.929
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.LockShuttle wird an DP deaktiviert.X,2,2,0,0,3.1445,3.109,3.18,3.1126,3.1764
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.Shuttle von Station starten.X,1,1,0,0,3.218,3.218,3.218,3.218,3.218
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.Init.X,21,20,1,1,47.404,12.661,167.821,15.7523,159.1779
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.ShuttleInStation an Station senden.X,4,4,0,0,3.1385,3.109,3.188,3.1114,3.1826
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.LockShuttle wird an DP aktiviert.X,16,16,0,0,34.6095,25.324,35.097,29.8878,35.0498
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.LockShuttle wird an DP deaktiviert.X,2,2,0,0,3.2655,3.188,3.343,3.1958,3.3352
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.Shuttle von Station starten.X,3,3,0,0,3.141,3.11,3.176,3.1131,3.1725
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.Init.X,24,24,1,0,52.091,9.583,199.362,20.431,189.366
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.ShuttleInStation an Station senden.X,8,7,0,1,3.156,3.077,6.378,3.0866,5.4534
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.LockShuttle wird an DP aktiviert.X,16,16,0,0,3.164,3.099,3.281,3.1065,3.2698
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.Shuttle von Station starten.X,3,3,0,0,3.109,3.109,3.125,3.109,3.1234
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Init.X,13,13,1,0,72.456,9.437,702.533,18.935,537.716
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.ReadRFID.X,2,2,0,0,3.164,3.141,3.187,3.1433,3.1847
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.AnalyseRFIDData.X,1,1,0,0,3.141,3.141,3.141,3.141,3.141
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.SendShuttleOn.X,4,4,0,0,3.1325,3.125,3.203,3.125,3.1935
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.RFID-Write.X,1,1,0,0,3.187,3.187,3.187,3.187,3.187
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.Init.X,22,22,1,0,51.806,15.66,175.991,15.9017,166.1409
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.ReadRFID.X,2,2,0,0,3.117,3.078,3.156,3.0819,3.1521
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.StartWork.X,6,6,0,0,3.093,3.062,3.172,3.062,3.1718
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.StationWorks.X,16,16,0,0,31.273,25.043,34.545,29.5955,34.4527
+ground_truth,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.SendShuttleOn.X,5,5,0,0,3.125,3.093,3.157,3.0954,3.1568
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Fahre GPos Auto.X,1,1,0,0,5.602,5.602,5.602,5.602,5.602
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg2 Auslagern.X,8,8,0,0,22.6255,22.459,22.71,22.4821,22.6914
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg1 Einlagern.X,16,16,0,0,25.396,22.478,28.264,22.5087,28.2505
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Warte Startsig.X,17,16,1,1,19.7405,5.524,152.313,5.5877,152.2905
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg1 Auslagern.X,16,16,0,0,28.052,22.502,33.864,22.5087,29.6835
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step62.X,8,8,0,0,11.298,11.207,17.049,11.2109,16.9895
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step73.X,8,8,0,0,11.2705,11.215,11.336,11.2213,11.335
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step77.X,16,16,0,0,11.362,11.227,16.935,11.2458,16.9065
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step79.X,16,16,0,0,11.287,11.184,17.013,11.1855,16.983
+ground_truth,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg2 Einlagern.X,8,8,0,0,22.601,22.482,28.295,22.4943,28.2607
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Weiche stellen Durchfahrt.X,2,2,0,0,3.072,3.049,3.095,3.0513,3.0927
+ground_truth,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Weiche stellen Einfahrt.X,4,4,0,0,3.187,3.125,3.344,3.1343,3.3204
+shuttle_dropout,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.Init.X,46,46,1,0,40.747,9.289,128.794,9.4287,120.3092
+shuttle_dropout,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.SendShuttleOn.X,45,45,0,0,0.313,0.203,0.593,0.204,0.5158
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step3.X,17,16,1,1,182.5075,48.698,226.417,49.9175,224.9178
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.Init.X,19,19,1,0,127.205,20.036,241.147,30.8909,222.2083
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.StartWork.X,3,3,0,0,1.984,1.967,2.11,1.9687,2.0974
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.StationWorks.X,13,13,0,0,6.062,4.093,6.156,5.2174,6.1374
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.SendShuttleOn.X,9,9,0,0,2.025,1.953,2.078,1.959,2.072
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step6.X,2,2,0,0,1.779,1.761,1.797,1.7628,1.7952
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step7.X,1,1,0,0,1.718,1.718,1.718,1.718,1.718
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step8.X,16,16,0,0,1.797,1.719,3.64,1.7423,3.6168
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step9.X,2,2,0,0,1.8125,1.797,1.828,1.7985,1.8265
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Init.X,24,23,1,1,18.991,3.109,766.696,3.2088,428.7628
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Stelle Weiche Ausfahrt.X,2,2,0,0,3.14,3.128,3.152,3.1292,3.1508
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Ausfahrt.X,7,7,0,0,3.184,3.132,3.265,3.1392,3.2419
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Stelle Weiche Einfahrt.X,1,1,0,0,3.248,3.248,3.248,3.248,3.248
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Einfahrt.X,9,9,0,0,3.156,3.107,3.243,3.1078,3.227
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Stelle Weiche Durchfahrt.X,3,3,0,0,3.109,3.094,3.234,3.0955,3.2215
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Durchfahrt.X,5,5,0,0,3.187,3.062,3.312,3.0746,3.2996
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Init.X,10,10,1,0,143.978,25.286,458.283,25.4062,381.7186
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.ReadRFID.X,1,1,0,0,3.172,3.172,3.172,3.172,3.172
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Warten auf Auftag oder -simulation (Auto).X,14,13,1,1,199.063,46.386,299.054,46.4928,269.2316
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.DMC scannen (Auto).X,2,2,0,0,3.0855,2.109,4.062,2.2066,3.9644
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Ausfahren (Auto).X,7,7,0,0,2.015,1.969,2.109,1.969,2.0853
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Pruefung ohne DC (Auto).X,3,3,0,0,2.031,2.031,2.11,2.031,2.1021
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Pruefung mit DC (Auto).X,12,12,0,0,2.0275,1.969,3.999,1.9772,3.9908
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Einfahren (Auto).X,11,11,0,0,2.031,1.953,2.141,1.9545,2.125
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Ausfahren Start.X,3,3,0,0,2.016,2.014,2.093,2.0142,2.0853
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Ausfahren.X,2,2,0,0,1.953,1.953,1.953,1.953,1.953
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Herunterfahren.X,2,2,0,0,2.007,1.983,2.031,1.9854,2.0286
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Einfahren Start.X,3,3,0,0,2.031,2.022,2.077,2.0229,2.0724
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Einfahren.X,6,6,0,0,2.0265,2.0,2.078,2.0038,2.0665
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Step28.X,2,2,0,0,3.047,2.016,4.078,2.1191,3.9749
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Pruefung ohne DC Start.X,1,1,0,0,2.031,2.031,2.031,2.031,2.031
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Test_m_Strom.X,5,5,0,0,2.0,1.968,2.094,1.9744,2.0844
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Step35.X,12,12,0,0,1.9925,1.953,2.063,1.9612,2.0625
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.Init.X,29,29,1,0,53.897,5.42,224.402,12.9538,207.3278
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.ReadRFID.X,1,1,0,0,1.781,1.781,1.781,1.781,1.781
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.StartWork.X,5,5,0,0,1.781,1.734,1.844,1.7402,1.8438
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.StationWorks.X,16,16,0,0,3.503,1.719,3.672,1.7423,3.6368
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.SendShuttleOn.X,12,12,0,0,1.7815,1.719,5.317,1.7449,4.3517
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.RFID-Write.X,1,1,0,0,1.813,1.813,1.813,1.813,1.813
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttletueren oeffen (Auto).X,17,16,1,1,136.243,6.179,181.409,6.209,179.3473
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Greifer aufnehmen.X,16,16,0,0,9.318,6.18,9.436,6.1973,9.4127
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Schutzmodul montieren.X,16,16,0,0,12.4335,9.266,12.634,9.296,12.5875
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Relais montieren.X,16,16,0,0,12.4375,9.275,12.66,9.332,12.5708
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step12.X,3,3,0,0,3.109,3.078,3.187,3.0811,3.1792
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step27.X,16,16,0,0,6.281,3.078,12.569,3.102,12.5623
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10_3.X,16,16,0,0,9.3845,6.249,9.59,6.261,9.482
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Start.X,13,13,0,0,3.14,3.093,3.221,3.093,3.2102
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Motoren einschalten.X,1,1,0,0,3.112,3.112,3.112,3.112,3.112
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Geschwindigkeit auf 100%.X,1,1,0,0,3.063,3.063,3.063,3.063,3.063
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programmnummer mit Paritaet uebergeben.X,1,1,0,0,3.031,3.031,3.031,3.031,3.031
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm starten.X,1,1,0,0,3.031,3.031,3.031,3.031,3.031
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm wird ausgefuehrt.X,32,32,0,0,18.7075,6.171,31.301,6.2138,31.2763
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.Init.X,27,27,1,0,39.452,5.593,107.0,5.6593,101.4201
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.StartWork.X,3,3,0,0,5.631,5.625,5.739,5.6256,5.7282
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.StationWorks.X,21,21,0,0,50.802,45.037,112.767,45.039,95.628
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.SendShuttleOn.X,8,8,0,0,11.225,5.553,22.428,5.5849,20.5159
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.StartWork.X,1,1,0,0,3.281,3.281,3.281,3.281,3.281
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.SendShuttleOn.X,9,9,0,0,6.265,3.094,843.788,3.1064,508.8156
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Starte Weichenkette.X,3,3,0,0,3.141,3.124,3.172,3.1257,3.1689
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Starte Shuttle.X,9,9,0,0,3.169,3.038,3.281,3.0728,3.2622
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St20_DB.Init.X,9,8,1,1,278.627,22.251,576.495,27.7702,543.2653
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St20_DB.ShuttleInStation an Station senden.X,7,7,0,0,3.14,3.109,3.281,3.109,3.2717
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St20_DB.Shuttle von Station starten.X,4,4,0,0,3.1405,3.109,3.25,3.1092,3.2382
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.Init.X,17,16,1,1,146.0485,15.855,297.414,37.3042,259.596
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.LockShuttle wird an DP aktiviert.X,13,13,0,0,6.35,6.206,9.565,6.2456,9.502
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.Shuttle von Station starten.X,3,3,0,0,3.203,3.078,3.312,3.0905,3.3011
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.Init.X,33,32,1,1,33.1565,3.062,107.254,3.1318,93.008
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.ShuttleInStation an Station senden.X,11,11,0,0,3.265,3.121,19.1,3.144,19.0695
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.LockShuttle wird an DP aktiviert.X,23,23,0,0,50.459,47.38,57.34,47.3824,53.8745
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.LockShuttle wird an DP deaktiviert.X,2,2,0,0,3.133,3.125,3.141,3.1258,3.1402
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.Shuttle von Station starten.X,2,2,0,0,3.1085,3.094,3.123,3.0955,3.1216
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.Init.X,17,16,1,1,152.407,18.906,197.739,18.9877,194.607
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.LockShuttle wird an DP aktiviert.X,16,16,0,0,34.647,31.484,35.009,31.5102,34.934
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.Init.X,23,22,1,1,60.176,3.17,225.995,22.0463,222.1865
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.ShuttleInStation an Station senden.X,4,4,0,0,6.275,3.14,6.443,3.6017,6.4263
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.LockShuttle wird an DP aktiviert.X,16,16,0,0,3.164,3.093,6.234,3.093,4.0193
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.LockShuttle wird an DP deaktiviert.X,3,3,0,0,3.203,3.153,3.266,3.158,3.2597
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.Shuttle von Station starten.X,4,4,0,0,3.1795,3.125,3.25,3.1296,3.2429
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.Init.X,20,20,1,0,81.554,3.093,194.047,15.1248,193.8884
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.ReadRFID.X,1,1,0,0,3.156,3.156,3.156,3.156,3.156
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.StartWork.X,1,1,0,0,3.156,3.156,3.156,3.156,3.156
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.StationWorks.X,16,16,0,0,34.2285,31.093,37.321,31.1523,35.1595
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.SendShuttleOn.X,4,4,0,0,3.1245,3.116,3.156,3.1168,3.1518
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.RFID-Write.X,1,1,0,0,3.063,3.063,3.063,3.063,3.063
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg2 Auslagern.X,7,7,0,0,22.534,22.437,22.572,22.4454,22.5714
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg1 Einlagern.X,16,16,0,0,28.0705,22.494,28.393,22.4977,28.3637
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Warte Startsig.X,19,18,1,1,45.176,5.635,146.723,5.6401,146.3141
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg1 Auslagern.X,16,16,0,0,25.3975,22.572,33.944,22.581,29.6638
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step62.X,7,7,0,0,11.327,11.244,17.011,11.2512,16.9918
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step73.X,7,7,0,0,11.309,11.207,11.357,11.222,11.3528
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step77.X,16,16,0,0,11.384,11.184,16.975,11.2447,16.9683
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step79.X,16,16,0,0,11.3025,11.186,17.02,11.1973,12.8087
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg2 Einlagern.X,7,7,0,0,22.606,22.448,28.305,22.4753,28.2738
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Init.X,15,15,1,0,120.181,6.304,518.588,6.3425,399.6762
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.ReadRFID.X,2,2,0,0,3.6715,3.188,4.155,3.2364,4.1067
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.SendShuttleOn.X,7,7,0,0,3.171,3.094,3.313,3.1033,3.2848
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Weiche stellen Durchfahrt.X,1,1,0,0,3.084,3.084,3.084,3.084,3.084
+shuttle_dropout,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Weiche stellen Einfahrt.X,3,3,0,0,3.187,3.172,3.188,3.1735,3.1879
+missing_parts,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.Init.X,40,40,1,0,47.393,9.429,174.205,9.6088,102.9197
+missing_parts,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.SendShuttleOn.X,39,39,0,0,0.312,0.188,0.594,0.203,0.4896
+missing_parts,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.Step19.X,1,1,0,0,0.172,0.172,0.172,0.172,0.172
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.Init.X,21,21,1,0,68.532,13.974,193.02,28.088,181.742
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.ReadRFID.X,2,2,0,0,1.9925,1.969,2.016,1.9714,2.0137
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.StartWork.X,2,2,0,0,2.0935,2.078,2.109,2.0795,2.1075
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.StationWorks.X,13,13,0,0,6.062,4.078,6.13,5.203,6.1156
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.SendShuttleOn.X,7,7,0,0,2.0,1.953,2.047,1.953,2.0422
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.RFID-Write.X,2,2,0,0,1.9765,1.969,1.984,1.9698,1.9832
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Warten auf Auftag oder -simulation (Auto).X,15,14,1,1,177.468,44.604,257.133,45.6453,252.05
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.DMC scannen (Auto).X,2,2,0,0,3.0545,2.0,4.109,2.1054,4.0035
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Ausfahren (Auto).X,7,7,0,0,2.031,1.984,2.109,1.9843,2.0952
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Pruefung ohne DC (Auto).X,4,4,0,0,2.008,2.0,2.047,2.0,2.0424
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Pruefung mit DC (Auto).X,12,12,0,0,2.031,1.969,4.052,1.9778,4.0404
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Einfahren (Auto).X,10,10,0,0,2.0375,1.984,2.078,1.998,2.078
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Ausfahren Start.X,3,3,0,0,2.031,2.016,2.047,2.0175,2.0454
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Ausfahren.X,2,2,0,0,2.0625,2.047,2.078,2.0486,2.0764
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Einfahren Start.X,3,3,0,0,2.078,2.059,2.083,2.0609,2.0825
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Hochfahren.X,1,1,0,0,2.015,2.015,2.015,2.015,2.015
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Einfahren.X,6,6,0,0,2.0155,1.953,2.078,1.964,2.0663
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Step28.X,2,2,0,0,3.0465,2.031,4.062,2.1326,3.9605
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Pruefung ohne DC Start.X,3,3,0,0,2.0,1.984,2.047,1.9856,2.0423
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Test_m_Strom.X,5,5,0,0,1.984,1.969,2.0,1.969,1.9968
+missing_parts,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Step35.X,12,12,0,0,2.031,1.953,2.114,1.9701,2.103
+missing_parts,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step3.X,17,16,1,1,108.7535,48.401,203.29,49.6048,202.0105
+missing_parts,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step6.X,1,1,0,0,1.718,1.718,1.718,1.718,1.718
+missing_parts,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step8.X,16,16,0,0,1.844,1.766,3.622,1.7825,3.6122
+missing_parts,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step9.X,2,2,0,0,1.758,1.734,1.782,1.7364,1.7796
+missing_parts,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.Init.X,26,26,1,0,52.094,19.93,186.197,30.6025,174.2392
+missing_parts,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.ReadRFID.X,2,2,0,0,1.816,1.781,1.851,1.7845,1.8475
+missing_parts,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.StartWork.X,7,7,0,0,1.805,1.719,1.859,1.7328,1.8566
+missing_parts,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.StationWorks.X,16,16,0,0,1.8855,1.756,3.718,1.7628,3.6603
+missing_parts,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.SendShuttleOn.X,12,12,0,0,1.798,1.718,7.296,1.734,4.3315
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttletueren oeffen (Auto).X,17,16,1,1,65.8825,6.222,156.451,6.231,154.0847
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Greifer aufnehmen.X,16,16,0,0,9.3165,6.2,9.468,6.2487,9.4253
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Schutzmodul montieren.X,16,16,0,0,12.3965,9.314,12.628,9.3283,12.5485
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Relais montieren.X,16,16,0,0,12.3835,9.364,12.79,9.3745,12.6497
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step12.X,5,5,0,0,3.109,3.063,3.14,3.0722,3.137
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step27.X,16,16,0,0,6.218,3.109,12.99,3.109,12.6818
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10_3.X,16,16,0,0,9.369,6.303,9.494,8.544,9.4812
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Start.X,12,12,0,0,3.1075,3.031,3.219,3.0326,3.2102
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Ruecksetzen der Robotereingaenge.X,1,1,0,0,3.094,3.094,3.094,3.094,3.094
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Motoren einschalten.X,1,1,0,0,3.125,3.125,3.125,3.125,3.125
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Geschwindigkeit auf 100%.X,1,1,0,0,3.156,3.156,3.156,3.156,3.156
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programmnummer mit Paritaet uebergeben.X,1,1,0,0,3.172,3.172,3.172,3.172,3.172
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm wird ausgefuehrt.X,32,32,0,0,18.7375,6.151,31.762,6.1942,31.2344
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.Init.X,18,18,1,0,75.069,18.791,171.983,18.7978,169.3752
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.StartWork.X,2,2,0,0,3.078,3.078,3.078,3.078,3.078
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.StationWorks.X,16,16,0,0,34.1345,31.11,34.871,31.1303,34.7112
+missing_parts,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.SendShuttleOn.X,2,2,0,0,3.117,3.094,3.14,3.0963,3.1377
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.Init.X,22,22,1,0,28.16,5.624,107.377,5.6251,106.4233
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.ReadRFID.X,1,1,0,0,5.748,5.748,5.748,5.748,5.748
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.StartWork.X,3,3,0,0,5.646,5.593,5.701,5.5983,5.6955
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.StationWorks.X,20,20,0,0,48.1095,45.04,107.655,45.1302,102.317
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.SendShuttleOn.X,8,8,0,0,11.289,5.64,22.432,5.64,20.5325
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Fahre GPos Auto.X,1,1,0,0,5.609,5.609,5.609,5.609,5.609
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg2 Auslagern.X,8,8,0,0,22.6435,22.53,28.45,22.5384,28.3338
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg1 Einlagern.X,16,16,0,0,22.6145,22.466,28.303,22.4862,28.2235
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Warte Startsig.X,17,16,1,1,19.673,5.594,152.262,5.594,152.1188
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg1 Auslagern.X,16,16,0,0,28.111,22.511,33.764,22.5305,29.885
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step62.X,8,8,0,0,11.3545,11.241,17.058,11.2501,17.0388
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step73.X,8,8,0,0,11.2445,5.641,16.93,7.5856,15.1754
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step77.X,16,16,0,0,14.09,11.232,17.269,11.244,17.0583
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step78.X,1,1,0,0,5.633,5.633,5.633,5.633,5.633
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step79.X,16,16,0,0,11.3705,5.684,17.066,9.8218,17.03
+missing_parts,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg2 Einlagern.X,8,8,0,0,22.953,22.465,28.345,22.48,28.3184
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Init.X,20,19,1,1,9.744,3.171,1176.394,3.3123,308.434
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Ausfahrt.X,8,8,0,0,3.156,3.078,3.203,3.0944,3.1921
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Ablauf Einfahrt & Warten bis sicher in Position: Schreibstation.X,1,1,0,0,3.343,3.343,3.343,3.343,3.343
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Stelle Weiche Einfahrt.X,2,2,0,0,3.0905,3.083,3.098,3.0838,3.0972
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Einfahrt.X,8,8,0,0,3.1425,3.062,3.281,3.0732,3.2537
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Stelle Weiche Durchfahrt.X,2,2,0,0,3.2065,3.101,3.312,3.1115,3.3014
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Durchfahrt.X,3,3,0,0,3.203,3.14,3.27,3.1463,3.2633
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Init.X,9,9,1,0,41.741,15.81,1182.919,19.656,798.3462
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.ReadRFID.X,1,1,0,0,3.187,3.187,3.187,3.187,3.187
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.SendShuttleOn.X,8,8,0,0,3.187,3.094,6.448,3.1101,6.4442
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Starte Weichenkette.X,5,5,0,0,3.187,3.044,3.255,3.0622,3.2424
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Starte Shuttle.X,7,7,0,0,3.171,3.077,3.234,3.0866,3.2202
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St20_DB.Init.X,5,4,1,1,453.71,37.965,573.268,92.2224,563.4387
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St20_DB.ShuttleInStation an Station senden.X,3,3,0,0,3.203,3.18,3.203,3.1823,3.203
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St20_DB.Shuttle von Station starten.X,2,2,0,0,3.1635,3.124,3.203,3.128,3.199
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.Init.X,16,15,1,1,136.614,38.054,256.167,42.4038,249.9804
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.LockShuttle wird an DP aktiviert.X,13,13,0,0,6.297,3.172,6.437,4.9792,6.4118
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.LockShuttle wird an DP deaktiviert.X,2,2,0,0,3.1395,3.063,3.216,3.0707,3.2084
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.Shuttle von Station starten.X,2,2,0,0,3.1405,3.078,3.203,3.0842,3.1967
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.Init.X,29,28,1,1,6.387,3.063,107.44,3.1067,103.6107
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.ShuttleInStation an Station senden.X,8,8,0,0,8.0695,3.141,19.111,3.141,19.0483
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.LockShuttle wird an DP aktiviert.X,24,24,0,0,50.482,44.307,54.088,47.3276,53.8888
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.LockShuttle wird an DP deaktiviert.X,3,3,0,0,3.226,3.156,3.343,3.163,3.3313
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.Shuttle von Station starten.X,2,2,0,0,3.1925,3.141,3.244,3.1462,3.2389
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.Init.X,21,20,1,1,61.7455,16.154,174.17,18.7617,162.2722
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.ShuttleInStation an Station senden.X,3,3,0,0,3.19,3.112,3.281,3.1198,3.2719
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.LockShuttle wird an DP aktiviert.X,16,16,0,0,33.461,31.504,34.943,31.5805,34.9243
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.LockShuttle wird an DP deaktiviert.X,2,2,0,0,3.2505,3.188,3.313,3.1943,3.3068
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.Shuttle von Station starten.X,2,2,0,0,3.269,3.11,3.428,3.1259,3.4121
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.Init.X,22,21,1,1,53.617,19.18,202.678,41.042,183.901
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.ShuttleInStation an Station senden.X,3,3,0,0,3.221,3.177,6.265,3.1814,5.9606
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.LockShuttle wird an DP aktiviert.X,16,16,0,0,3.1725,3.06,6.469,3.0848,4.186
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.Shuttle von Station starten.X,4,4,0,0,3.1715,3.156,3.207,3.1583,3.2018
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Init.X,10,10,1,0,115.6285,34.867,782.992,35.0569,604.8712
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.ReadRFID.X,1,1,0,0,3.172,3.172,3.172,3.172,3.172
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.SendShuttleOn.X,3,3,0,0,3.14,3.109,3.172,3.1121,3.1688
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Weiche stellen Durchfahrt.X,3,3,0,0,3.219,3.218,3.313,3.2181,3.3036
+missing_parts,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Weiche stellen Einfahrt.X,2,2,0,0,3.1955,3.188,3.203,3.1888,3.2022
+missing_pressure,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.Init.X,45,45,1,0,42.892,9.392,105.188,10.4646,100.67
+missing_pressure,ns=6;s=Station 20 OpenC.St20 SoftSPS.AblaufketteShuttle_DB.SendShuttleOn.X,44,44,0,0,0.297,0.167,0.609,0.188,0.5706
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.Init.X,22,22,1,0,52.097,14.519,248.55,16.7766,243.4674
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.StartWork.X,3,3,0,0,2.047,2.046,2.063,2.0461,2.0614
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.StationWorks.X,13,13,0,0,6.077,2.078,6.453,4.4126,6.3876
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.SendShuttleOn.X,8,8,0,0,2.0625,2.0,2.126,2.0137,2.1144
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.AblaufketteShuttle_DB.RFID-Write.X,1,1,0,0,2.0,2.0,2.0,2.0,2.0
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Warten auf Auftag oder -simulation (Auto).X,14,13,1,1,178.3,45.268,304.676,46.0912,270.9818
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.DMC scannen (Auto).X,1,1,0,0,4.187,4.187,4.187,4.187,4.187
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Ausfahren (Auto).X,8,8,0,0,2.0065,1.953,2.109,1.9586,2.1016
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Pruefung ohne DC (Auto).X,3,3,0,0,2.047,1.968,2.062,1.9759,2.0605
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Pruefung mit DC (Auto).X,12,12,0,0,2.0625,1.969,2.313,1.9778,2.2954
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Einfahren (Auto).X,11,11,0,0,2.046,1.999,2.14,1.999,2.1085
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Ausfahren Start.X,2,2,0,0,2.043,2.008,2.078,2.0115,2.0745
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Herunterfahren.X,4,4,0,0,2.039,1.984,2.104,1.9864,2.1001
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Einfahren Start.X,2,2,0,0,2.0465,2.046,2.047,2.046,2.047
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Einfahren.X,9,9,0,0,2.016,1.943,2.109,1.9562,2.0966
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Step28.X,1,1,0,0,4.156,4.156,4.156,4.156,4.156
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Kette Pruefung ohne DC Start.X,5,5,0,0,1.969,1.968,2.062,1.968,2.0464
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Test_m_Strom.X,3,3,0,0,2.047,1.984,2.093,1.9903,2.0884
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Step35.X,12,12,0,0,2.0705,1.922,2.328,1.9561,2.3022
+missing_pressure,ns=6;s=S71500ET200MP-Station_2.Station30elPruefung.Ablaufkette iDB.Step53.X,1,1,0,0,2.078,2.078,2.078,2.078,2.078
+missing_pressure,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step3.X,17,16,1,1,101.1815,47.2,205.794,48.7007,200.5935
+missing_pressure,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step6.X,3,3,0,0,1.828,1.734,1.828,1.7434,1.828
+missing_pressure,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step8.X,16,16,0,0,1.812,1.75,3.692,1.762,2.3525
+missing_pressure,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.Ablaufkette iDB.Step9.X,3,3,0,0,1.787,1.734,1.826,1.7393,1.8221
+missing_pressure,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.Init.X,24,24,1,0,62.969,1.766,198.783,31.9537,184.3074
+missing_pressure,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.ReadRFID.X,1,1,0,0,1.828,1.828,1.828,1.828,1.828
+missing_pressure,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.StartWork.X,3,3,0,0,1.781,1.703,1.828,1.7108,1.8233
+missing_pressure,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.StationWorks.X,16,16,0,0,2.698,1.718,3.942,1.7772,3.7508
+missing_pressure,ns=6;s=S71500ET200MP-Station_1.Station 60 - Presse.AblaufketteShuttle_DB.SendShuttleOn.X,10,10,0,0,1.7885,1.75,5.437,1.7568,3.8269
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Shuttletueren oeffen (Auto).X,17,16,1,1,56.818,6.203,160.419,6.203,155.916
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Greifer aufnehmen.X,16,16,0,0,9.342,6.187,9.687,6.1937,9.6803
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Schutzmodul montieren.X,16,16,0,0,12.403,9.245,12.862,9.3065,12.769
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Montage aus Fach 101 - Relais montieren.X,16,16,0,0,12.4295,9.313,12.531,9.3242,12.5175
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step12.X,3,3,0,0,3.081,3.077,3.093,3.0774,3.0918
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step27.X,16,16,0,0,6.3035,3.094,12.528,3.1052,10.2008
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Step10_3.X,16,16,0,0,9.409,6.238,9.787,8.5323,9.7278
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Kette 'Roboterprogramm ausfuehren' Start.X,7,7,0,0,3.168,3.078,3.438,3.0873,3.4254
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Motoren einschalten.X,1,1,0,0,3.034,3.034,3.034,3.034,3.034
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.Ablaufsteuerung_iDB.Roboter: Programm wird ausgefuehrt.X,33,33,0,0,9.772,6.202,31.651,6.2326,31.4346
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.Init.X,19,19,1,0,34.422,9.425,173.093,17.8472,167.5508
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.StartWork.X,2,2,0,0,3.2025,3.062,3.343,3.076,3.3289
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.StationWorks.X,16,16,0,0,34.2245,31.277,34.822,31.328,34.6878
+missing_pressure,ns=6;s=S71500ET200MP-Station_3.Station 50 - Roboter.AblaufketteShuttle_DB.SendShuttleOn.X,2,2,0,0,3.1485,3.109,3.188,3.113,3.1841
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.Init.X,20,20,1,0,28.4815,5.587,154.265,5.6516,110.9213
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.ReadRFID.X,2,2,0,0,5.908,5.703,6.113,5.7235,6.0925
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.StartWork.X,2,2,0,0,5.7225,5.651,5.794,5.6582,5.7868
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.StationWorks.X,18,18,0,0,51.4505,45.25,154.33,45.2772,115.3422
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.SendShuttleOn.X,5,5,0,0,16.906,5.64,17.019,6.774,17.0106
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.NoWork.X,1,1,0,0,6.097,6.097,6.097,6.097,6.097
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.AblaufketteShuttle_DB.RFID-Write.X,1,1,0,0,5.703,5.703,5.703,5.703,5.703
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Init.X,20,19,1,1,9.781,3.207,1167.438,5.9871,297.1713
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Stelle Weiche Ausfahrt.X,2,2,0,0,3.108,3.075,3.141,3.0783,3.1377
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Ausfahrt.X,8,8,0,0,3.1925,3.019,3.297,3.0561,3.275
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Stelle Weiche Einfahrt.X,4,4,0,0,3.1565,3.109,3.225,3.1092,3.2217
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Einfahrt.X,7,7,0,0,3.135,3.078,3.177,3.0795,3.1755
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Stelle Weiche Durchfahrt.X,2,2,0,0,3.14,3.093,3.187,3.0977,3.1823
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Weiche_DB.Weiche gestellt auf Durchfahrt.X,3,3,0,0,3.188,3.11,3.463,3.1178,3.4355
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Init.X,9,9,1,0,82.428,19.309,1174.1,20.4346,793.53
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.StartWork.X,1,1,0,0,3.14,3.14,3.14,3.14,3.14
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.SendShuttleOn.X,8,8,0,0,3.195,3.109,6.396,3.1254,6.3803
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Starte Weichenkette.X,5,5,0,0,3.138,3.078,3.188,3.0878,3.1816
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arena_DB.Starte Shuttle.X,6,6,0,0,3.1605,3.05,3.296,3.061,3.2727
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St20_DB.Init.X,4,3,1,1,200.978,18.768,1485.473,36.989,1357.0235
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St20_DB.ShuttleInStation an Station senden.X,1,1,0,0,3.172,3.172,3.172,3.172,3.172
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St20_DB.Shuttle von Station starten.X,2,2,0,0,3.414,3.255,3.573,3.2709,3.5571
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.Init.X,20,19,1,1,54.348,34.481,254.627,37.8056,248.8346
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.ShuttleInStation an Station senden.X,2,2,0,0,3.26,3.161,3.359,3.1709,3.3491
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.LockShuttle wird an DP aktiviert.X,14,14,0,0,6.339,3.172,6.665,3.172,6.6085
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.LockShuttle wird an DP deaktiviert.X,2,2,0,0,3.119,3.093,3.145,3.0956,3.1424
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St30_DB.Shuttle von Station starten.X,2,2,0,0,3.1885,3.156,3.221,3.1593,3.2178
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.Init.X,29,28,1,1,4.869,3.015,108.844,3.0825,89.024
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.ShuttleInStation an Station senden.X,5,5,0,0,15.664,3.128,19.19,5.0236,19.1176
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.LockShuttle wird an DP aktiviert.X,24,24,0,0,49.285,46.965,56.667,47.3704,55.5701
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.LockShuttle wird an DP deaktiviert.X,3,3,0,0,3.25,3.14,3.297,3.151,3.2923
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St40_DB.Shuttle von Station starten.X,1,1,0,0,3.156,3.156,3.156,3.156,3.156
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.Init.X,22,22,1,0,57.094,18.917,153.282,19.0568,152.4431
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.ShuttleInStation an Station senden.X,4,3,0,1,3.232,3.125,3.436,3.1357,3.4156
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.LockShuttle wird an DP aktiviert.X,16,16,0,0,33.7515,31.364,35.089,31.52,35.0072
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St50_DB.Shuttle von Station starten.X,1,1,0,0,3.094,3.094,3.094,3.094,3.094
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.Init.X,21,21,1,0,54.506,19.068,204.621,41.69,194.513
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.ShuttleInStation an Station senden.X,5,4,0,1,3.148,3.095,6.377,3.0995,5.8961
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.LockShuttle wird an DP aktiviert.X,16,16,0,0,3.168,3.062,3.422,3.074,3.3403
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.LockShuttle wird an DP deaktiviert.X,2,2,0,0,3.2205,3.138,3.303,3.1462,3.2948
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Arbeitsstation_St60_DB.Shuttle von Station starten.X,1,1,0,0,3.111,3.111,3.111,3.111,3.111
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Init.X,10,10,1,0,130.2195,25.473,613.703,25.5963,583.7015
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.ReadRFID.X,2,2,0,0,3.3355,3.25,3.421,3.2586,3.4124
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.SendShuttleOn.X,2,2,0,0,3.117,3.094,3.14,3.0963,3.1377
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Weiche stellen Durchfahrt.X,2,2,0,0,3.0795,3.065,3.094,3.0665,3.0925
+missing_pressure,ns=6;s=S71500ET200MP-Station_5.Station10.Ablaufkette_Shuttle_Schreibstation_DB.Weiche stellen Einfahrt.X,4,4,0,0,3.203,3.163,3.406,3.169,3.3756
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg2 Auslagern.X,8,8,0,0,22.8575,22.581,28.4,22.6289,28.3408
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg1 Einlagern.X,16,16,0,0,22.8975,22.565,28.803,22.5673,28.6995
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Warte Startsig.X,23,22,1,1,5.7255,5.531,154.245,5.5501,147.9388
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg1 Auslagern.X,16,16,0,0,23.166,17.096,33.806,21.2037,30.0418
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step62.X,8,8,0,0,11.8325,11.385,17.02,11.3941,17.0161
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step73.X,8,8,0,0,11.369,11.282,11.68,11.2974,11.6181
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step77.X,16,16,0,0,11.688,11.229,17.352,11.289,17.1292
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Step79.X,16,16,0,0,11.3425,5.719,17.066,9.8568,16.97
+missing_pressure,ns=6;s=S71500ET200MP-Station_4.Station 40 - Hochregallager.Ablaufkette_DB.Prg2 Einlagern.X,8,8,0,0,23.216,22.721,28.304,22.8383,28.2938
